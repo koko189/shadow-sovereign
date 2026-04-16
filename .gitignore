@@ -1,18 +1,11 @@
-# SSH / secrets
-.ssh/
-*.pem
-*.key
-
-# Python
 __pycache__/
 *.pyc
-
-# OSINT data
-loot/
-logs/
-*.db
-
-# system junk
-.rustup/
-.wget-hsts
-.zsh_history
+.env
+.venv/
+dist/
+build/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.sqlite
